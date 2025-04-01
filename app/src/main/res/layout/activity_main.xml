@@ -14,5 +14,20 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="TextView"
+        android:textAlignment="textEnd"
         android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textSize="60sp" />
+
+    <include
+        layout="@layout/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
